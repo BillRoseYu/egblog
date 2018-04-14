@@ -59,14 +59,14 @@ use Think\Controller;
 
 		// }
 		public function doLogin(){
-			$email = $_POST['email'];
+			//$email = $_POST['email'];
 			$phone = $_POST['phone'];
 			$password = $_POST['password'];
 			//$verifyCode = $_POST['verifyCode'];
 			$userModel = new \Api\Model\UserModel();
 			$userInfo = $userModel->getUserInfoByPhone($phone);
 			if($userInfo['status']){
-				$_SESSION['me'] = $userInfo;
+				// $_SESSION['me'] = $userInfo;
 				if($userInfo){
 					if($password == $userInfo['password']){
 						//$res = check_verify($verifyCode, $id = '');
