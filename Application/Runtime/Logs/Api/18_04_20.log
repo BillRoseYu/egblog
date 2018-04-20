@@ -6301,3 +6301,402 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2018-04-20T17:39:18+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0060s ]
+SQL: UPDATE `blog` SET `title`='个人和',`content`='<p>我去过热和染色体</p>',`classify_id`='1',`updatetime`='2018-04-20 17:39:18' WHERE ( id = 0 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-20T17:39:58+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0070s ]
+SQL: UPDATE `blog` SET `title`='个人和',`content`='<p>我去过热和染色体</p>',`classify_id`='1',`updatetime`='2018-04-20 17:39:58' WHERE ( id = 0 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-20T17:40:11+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0080s ]
+SQL: UPDATE `blog` SET `title`='个人和4145641531',`content`='<p>我去过热和染色体</p>',`classify_id`='1',`updatetime`='2018-04-20 17:40:11' WHERE ( id = 0 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-20T17:41:09+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0070s ]
+SQL: UPDATE `blog` SET `title`='个人和4145641531',`content`='<p>我去过热和染色体</p>',`classify_id`='1',`updatetime`='2018-04-20 17:41:09' WHERE ( id = 0 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-20T17:41:25+08:00 ] 192.168.199.212 /api/blog/info?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog` WHERE ( classify_id = 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 31 行.
+
+[ 2018-04-20T17:41:43+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0080s ]
+SQL: UPDATE `blog` SET `title`='个人和辅导班如果您',`content`='<p>我去过热和染色体</p>',`classify_id`='1',`updatetime`='2018-04-20 17:41:43' WHERE ( id = 0 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-20T17:46:17+08:00 ] 192.168.199.212 /api/blog/info?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog` WHERE ( classify_id = 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 31 行.
+
+[ 2018-04-20T17:46:39+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `blog` SET `title`='111',`content`='<p>我去过热和染色体不听话为何物</p>',`classify_id`='1',`updatetime`='2018-04-20 17:46:39' WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `blog` SET `title`='111',`content`='<p>我去过热和染色体不听话为何物</p>',`classify_id`='1',`updatetime`='2018-04-20 17:46:39' WHERE ( id =  )
+
+[ 2018-04-20T17:46:41+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0070s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `blog` SET `title`='111',`content`='<p>我去过热和染色体不听话为何物</p>',`classify_id`='1',`updatetime`='2018-04-20 17:46:41' WHERE ( id =  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `blog` SET `title`='111',`content`='<p>我去过热和染色体不听话为何物</p>',`classify_id`='1',`updatetime`='2018-04-20 17:46:41' WHERE ( id =  )
+
+[ 2018-04-20T17:48:54+08:00 ] 192.168.199.212 /api/blog/info?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog` WHERE ( classify_id = 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 31 行.
+
+[ 2018-04-20T17:49:08+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0070s ]
+SQL: UPDATE `blog` SET `title`='111',`content`='<p>我去过热和染色体很麻烦的态度</p>',`classify_id`='1',`updatetime`='2018-04-20 17:49:08' WHERE ( id = 44 ) [ RunTime:0.1080s ]
+NOTIC: [2] Missing argument 1 for _res(), called in E:\xampp\htdocs\mythink\Application\Api\Controller\BlogController.class.php on line 183 and defined E:\xampp\htdocs\mythink\Application\Api\Common\function.php 第 8 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\mythink\Application\Api\Common\function.php 第 15 行.
+
+[ 2018-04-20T17:49:28+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0070s ]
+SQL: UPDATE `blog` SET `title`='111',`content`='<p>我去过热和染色体很麻烦的态度</p>',`classify_id`='1',`updatetime`='2018-04-20 17:49:28' WHERE ( id = 44 ) [ RunTime:0.0650s ]
+NOTIC: [2] Missing argument 1 for _res(), called in E:\xampp\htdocs\mythink\Application\Api\Controller\BlogController.class.php on line 183 and defined E:\xampp\htdocs\mythink\Application\Api\Common\function.php 第 8 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\mythink\Application\Api\Common\function.php 第 15 行.
+
+[ 2018-04-20T17:49:38+08:00 ] 192.168.199.212 /api/blog/info?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog` WHERE ( classify_id = 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 31 行.
+
+[ 2018-04-20T17:49:48+08:00 ] 192.168.199.212 /api/blog/doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0080s ]
+SQL: UPDATE `blog` SET `title`='111222',`content`='<p>我去过热和染色体很麻烦的态度</p>',`classify_id`='2',`updatetime`='2018-04-20 17:49:48' WHERE ( id = 44 ) [ RunTime:0.1370s ]
+NOTIC: [2] Missing argument 1 for _res(), called in E:\xampp\htdocs\mythink\Application\Api\Controller\BlogController.class.php on line 183 and defined E:\xampp\htdocs\mythink\Application\Api\Common\function.php 第 8 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\mythink\Application\Api\Common\function.php 第 15 行.
+
+[ 2018-04-20T17:49:53+08:00 ] 192.168.199.212 /api/blog/my_bloglists?user_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog` WHERE `status` = 1 AND `user_id` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+
+[ 2018-04-20T17:50:03+08:00 ] 192.168.199.212 /api/blog/info?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog` WHERE ( classify_id = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 31 行.
+
+[ 2018-04-20T17:50:07+08:00 ] 192.168.199.212 /api/blog/my_bloglists?user_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog` WHERE `status` = 1 AND `user_id` = 16  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+
+[ 2018-04-20T17:50:09+08:00 ] 192.168.199.212 /api/blog/info?id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog` WHERE ( classify_id = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: author_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 29 行.
+NOTIC: [8] Undefined index: author_img E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 31 行.
+
+[ 2018-04-20T17:50:13+08:00 ] 192.168.199.212 /api/blog/my_bloglists?user_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\mythink\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\BaseModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\mythink\Application\Api\Model\BaseModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog` WHERE `status` = 1 AND `user_id` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: classify_name E:\xampp\htdocs\mythink\Application\Api\Model\BlogModel.class.php 第 9 行.
+

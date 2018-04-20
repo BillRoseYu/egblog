@@ -149,7 +149,7 @@ class BlogController extends Controller {
 				}
 	}
 	public function doEdit(){
-			$id = isset($_POST['id'])?$_POST['id']:0;
+			$id = I('post.id','');
 			$content = $_POST['content'];
 			$classify_id = $_POST['classify_id'];
 			$title = $_POST['title'];
