@@ -44,4 +44,29 @@
 			return $data;
 		}
 
+		public function formatBlog($info) {
+            $data = array(
+                    "id"            => $info['id'],
+                    "title"         => $info['title'],
+                    "author_id"   => $info['author_id'],
+                    "author_name" => $info['author_name'],
+                    "read_num"      => $info['read_num'],
+                    "createtime"    => $info['createtime'],
+                    "format_ctime"  => date('m月d日',strtotime($info['createtime'])),
+                    );	
+            
+            return $data;
+        }
+  //       public function update($id,$data){
+		// 	$Blog= D("Blog");
+		// 	$data['updatetime'] = date('Y-m-d H:i:s');
+		// 	$data1['title'] = $data['title'];
+		// 	$data1['content'] = $data['content'];
+		// 	$data1['image'] = $data['image'];
+		// 	$data1['classify_id'] = $data['classify_id'];
+		// 	$data1['updatetime'] = $data['updatetime'];
+		// 	$res = $Blog->where("id = {$id}")->save($data1); // 根据条件更新记录
+		// 	return $res;
+		// }
+        
 	}

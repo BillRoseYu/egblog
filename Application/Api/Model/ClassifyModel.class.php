@@ -21,10 +21,25 @@
 		// 	$this->mysqli->query($sql);
 
 		// }
-		public function getParentLists($parent_id = 0){
-			$Classify= M("Classify");
-			$data = $Classify->where("parent_id= {$parent_id}")->select();
+		// public function getClassifyLists($id = 0){
+			
+		// 	$Classify= D("Classify");
+		// 	// $where['id']
+		// 	$data = $Classify->where("id = {$id}")->select();
+		// 	return $data;
+		// 	// var_dump($data);
+		// 	// die();
+		// }
+		public function format1($info){
+			$data = array();
+			$data['id'] = $info['id'];
+			//$data['img'] = $info['img'];
+			//$data['url'] = $info['url'];
+			$data['name'] = $info['name'];
+
+
 			return $data;
+
 		}
 		// public function add($name,$parent_id){
 		// 	$sql = "insert into classify(name,parent_id) values('{$name}',$parent_id)";

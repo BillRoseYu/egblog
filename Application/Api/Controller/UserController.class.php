@@ -22,7 +22,7 @@ use Think\Controller;
 		// }
 		 public function doReg(){
 			$data = array();
-			$data['uname'] = $_POST['name'];
+			$data['uname'] = $_POST['uname'];
 			$data['phone'] = $_POST['phone'];
 			$date['email'] ="";
 			$data['image'] = "";

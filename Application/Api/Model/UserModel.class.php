@@ -23,7 +23,7 @@
 			return isset($userInfo[0]) ? $userInfo[0]:array();
 		}
 		public function getUserInfoByPhone($phone){
-			$User= M("User");
+			$User= D("User");
 			$userInfo = $User->where("phone = '{$phone}'")->select();
 			//$sql = "select * from user where phone = '{$phone}'";
 			//$res = $this->mysqli->query($sql);
@@ -33,4 +33,14 @@
 		// public function getUserInfoById($id){
 		// 	return $this->getInfoById($id);
 		// }
+		// 
+		public function getInfoById($id) {
+            if (empty($id)) {
+                return array();
+            }
+            $sql = "select * from egblog where id = {$id}";
+            $query = $this->mysqli->query($sql);
+            $res = $query->fetch_array(MYSQLI_ASSOC);
+            return $res;
+        }
 	}

@@ -1,5 +1,5 @@
 <?php
-	namespace Home\Model;
+	namespace Api\Model;
 	class CommentModel extends BaseModel{
 		public $table="comment";
 		function add($data){
@@ -14,7 +14,7 @@
 			return $data;
 		}
 		function count($blog_id){
-			$Comment= M("Comment");
+			$Comment= D("Comment");
 			$count = $Comment->where("blog_id ={$blog_id}")->count();
 			return isset($count) ? $count : 0;
 		}
