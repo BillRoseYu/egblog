@@ -95,12 +95,26 @@ use Think\Controller;
  * @return   json     [取消收藏]
  */
     public function delCollect(){
-        $id = I('get.id','');   
+        $user_id = I('get.user_id','');
+        $blog_id = I('get.blog_id','');
         //$data = array();
         $Collect = D('Collect');
-        $status = $Collect->where("id = $id")->delete();
+        $data = $Collect->where("user_id=$user_id")->select();
+        // var_dump($data);
+        // die();
+
+        
+        $id = $Collect->where("blog_id=$blog_id")->find();
+        
+        // var_dump($id);
+        // die();
+        
+        $status = $Collect->where(array('id'=>$id['id']))->delete();
         if($status){
             _res();
+        }
+        else{
+            _res('无数据',false,'1009');
         }
     }
 }

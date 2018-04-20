@@ -91,11 +91,18 @@ $data1 = $Attention->add(array('status'=>1,'user_id'=>$user_id,'attentionuser_id
  * @return   json     [取消关注]
  */
     public function delAttention(){
+        $user_id = I('get.user_id','');
         $Attentionuser_id = I('get.Attentionuser_id',''); 
         $Attention = D('Attention');
-        $status = $Attention->where("attentionuser_id = $Attentionuser_id")->delete();
+        $data = $Attention->where("user_id=$user_id")->select();
+        $Attentionuser_id = $Attention->where("attentionuser_id = $Attentionuser_id")->find();
+        $status = $Attention->where(array('attentionuser_id'=>$Attentionuser_id['attentionuser_id']))->delete();
         if($status){
             _res();
         }
+        else{
+            _res('无数据',false,'1009');
+        }
     }
+
 }
